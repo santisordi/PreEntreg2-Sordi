@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+/*480 768 1024*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+    background-color: rgb(255, 247, 234);
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-content: space-between;
+    justify-items: stretch;
+    grid-template-areas:
+        "nav"
+        "main"
+        "footer"
+    ;
+}
+
+.nav-color {
+    background-color: rgb(238, 219, 190);
+}
+
+.letras-logo {
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.logo-nav {
+    height: 180px;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+/*/ESTILOS SECTION INDEX/*/
+
+.fotoPortada {
+    height: 200px;
+    margin-top: 15px;
+}
+
+.flex-fotoPortada {
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    font-weight: inherit;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+/*/ESTILOS SECTION QUIENES SOMOS/*/
+
+.main-qs {
+    display: grid;
+}
+
+.qs-section {
+    display: grid;
+    justify-content: space-around;
+}
+
+.qs-img {
+    display: grid;
+    justify-content: space-around;
+}
+
+.porton {
+    height: 200px;
+    width: ;
+}
+
+/*/ESTILOS SECTION COMODIDADES*/
+
+.carousel-comodidades {
+    margin-top: 60px;
+}
+
+/*/ESTILOS SECTION UBICACION*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_iframe {
+    height: 400px !important;
+}
+
+/*/ESTILOS FOOTER /*/
+
+footer {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(238, 219, 190);
+}
+
+.text-footer {
+    font-size: xx-small;
+}
+
+.warper {
+    grid-area: nav;
+}
+
+.main-grid {
+    grid-area: main;
+}
+
+.main-footer {
+    grid-area: footer;
+}
