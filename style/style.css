@@ -27,6 +27,10 @@ body {
     background-color: rgb(238, 219, 190);
 }
 
+.navbar .navbar-nav .nav-item a:hover{
+    color: aliceblue;
+}
+
 .letras-logo {
     justify-content: right;
     margin-right: 15px;
@@ -137,4 +141,25 @@ footer {
 
 .main-footer {
     grid-area: footer;
+}
+
+@media (min-width: 485px) {
+    .fotoPortada {
+        height: 60%;
+    }  
+
+}
+
+@media (min-width: 768px){
+    .fotoPortada {
+        height: 85%;
+    }  
+}
+
+@media (min-width: 1024px){
+    .fotoPortada {
+        height: 100%;
+        margin-top: 15px;
+    }  
+    
 }
