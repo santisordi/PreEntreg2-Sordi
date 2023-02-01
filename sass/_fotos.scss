@@ -1,0 +1,123 @@
+.flex-fotoPortada {
+    display: grid;
+    justify-content: center;
+
+    .fotoPortada {
+        height: 200px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        @include mobile {
+            height: 230px;
+
+            @include tablet {
+                height: 350px;
+            }
+
+            @include desktop {
+                height: 100%;
+                margin-top: 15px;
+            }
+        }
+    }
+
+}
+
+.porton {
+    height: 250px;
+
+    @include tablet {
+        height: 300px;
+
+        @include desktop {
+            height: 400px;
+        }
+    }
+}
+
+.galeria {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+    grid-gap: 10px;
+
+    @include mobile {
+        grid-template-columns: auto auto;
+    }
+}
+    
+.foto-pieza {
+    height: 150px;
+    border-radius: 30%;
+    transition-duration: 1s;
+
+    @include tablet {
+        height: 250px;
+    }
+
+    @include desktop {
+        height: 350px;
+    }
+
+    &:hover {
+        transform: scale(1.3)
+    }
+}
+
+.foto-cocina {
+    height: 150px;
+    border-radius: 30%;
+    transition-duration: 1s;
+
+    @include tablet {
+        height: 250px;
+    }
+
+    @include desktop {
+        height: 350px;
+    }
+
+    &:hover {
+        transform: scale(1.3)
+    }
+}
+
+.quincho {
+    height: 150px;
+    border-radius: 30%;
+    transition-duration: 1s;
+
+    @include tablet {
+        height: 250px;
+    }
+
+    @include desktop {
+        height: 350px;
+    }
+
+    &:hover {
+        transform: scale(1.3)
+    }
+}
+
+.foto-living {
+    height: 150px;
+    border-radius: 30%;
+    transition-duration: 1s;
+
+    @include tablet {
+        height: 250px;
+    }
+
+    @include desktop {
+        height: 350px;
+    }
+
+    &:hover {
+        transform: scale(1.3)
+    }
+}
+
+

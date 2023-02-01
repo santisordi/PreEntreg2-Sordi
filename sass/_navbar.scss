@@ -1,0 +1,21 @@
+.navbar {
+    background-color: rgb(238, 219, 190);
+
+    .logo-nav {
+        height: 180px;
+        margin-top: 2px;
+        margin-left: 20px;
+    }
+    .letras-logo {
+        justify-content: right;
+    }
+    .navbar-nav {
+        .nav-item {
+            a {
+                &:hover {
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+}
